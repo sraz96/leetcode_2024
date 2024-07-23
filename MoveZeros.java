@@ -18,10 +18,10 @@ public class MoveZeros {
     public static void main(String[] args) {
         int[] arr1 = {0, 1, 0, 3, 1, 2};
         moveZerosToEnd(arr1);
-        System.out.println(java.util.Arrays.toString(arr1)); // Output: [1, 3, 1, 2, 0, 0]
+        System.out.println(java.util.Arrays.toString(arr1)); 
 
         int[] arr2 = {2, 1, 0, 0, 3, 4};
         moveZerosToEnd(arr2);
-        System.out.println(java.util.Arrays.toString(arr2)); // Output: [2, 1, 3, 4, 0, 0]
+        System.out.println(java.util.Arrays.toString(arr2)); 
     }
 }
